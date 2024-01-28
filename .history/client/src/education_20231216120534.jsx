@@ -1,7 +1,7 @@
-export default function Education() {
+export default function Service() {
     return (
       <>
-        <p>Education.Qualification</p>
+        <p>Service.Qualification</p>
       </>
     );
   }
