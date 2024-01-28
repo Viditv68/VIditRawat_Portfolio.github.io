@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import About from './src/about'
 import Contact from './src/contact'
-import Education from './src/education'
+import Service from './src/service'
 import Layout from './components/layout'
 
 const MainRouter = () => {

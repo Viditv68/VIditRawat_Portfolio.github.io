@@ -1,14 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHippo } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Project() {
     return (
       <>
-        <p>My Projects</p>
-
         <section>
         <div class="projects-title"><h1 class="programming">Projects</h1></div>
         <div>
           <img className="profile-photo" src= "src/Projects/Images/UltimateShooter.png" width={500} height={300}  alt={"Vidit Rawat"}/>
           <div class="github1">
-            <a href="https://github.com/Viditv68/UltimateShooter"><i class='logo github fab fa-github-square'></i></a>
+            <a href="https://github.com/Viditv68/UltimateShooter"><FontAwesomeIcon icon={faGithub} size="2x" bounce /></a>
           </div>
           <div class="Chef-Diary-title">Chef Diary: Cooking & Romance (C# & Unity)</div>   
           <div>
@@ -19,7 +20,7 @@ export default function Project() {
           <div>
           <img className="profile-photo" src= "src/Projects/Images/BattleTank.png" width={500} height={300}  alt={"Vidit Rawat"}/>
           <div class="github1">
-            <a href="https://github.com/Viditv68/battle-tank-game"><i class='logo github fab fa-github-square'></i></a>
+            <a href="https://github.com/Viditv68/battle-tank-game"><FontAwesomeIcon icon={faGithub} size="2x" bounce /></a>
           </div>
           <div class="Battle-Tank-title">Battle Tank (C# & Unity)</div>   
           <div>
@@ -37,7 +38,7 @@ export default function Project() {
         <div>
           <img className="platformer-2d" src= "src/Projects/Images/2DPlatformer.png" width={500} height={300}  alt={"Vidit Rawat"}/>
           <div class="github1">
-            <a href="https://github.com/Viditv68/2D-Platformer-Game"><i class='logo github fab fa-github-square'></i></a>
+            <a href="https://github.com/Viditv68/2D-Platformer-Game"><FontAwesomeIcon icon={faGithub} size="2x" bounce /></a>
           </div>
           <div class="2D-Platformer-Title">2D Platformer(C# & Unity)</div>   
           <div>
@@ -49,6 +50,39 @@ export default function Project() {
             - Responsive UI for player’s health and collectables.<br></br>
           </div>
         </div>
+
+        <div>
+          <img className="shooter" src= "src/Projects/Images/SimpleShooter.png" width={500} height={300}  alt={"Vidit Rawat"}/>
+          <div class="github1">
+            <a href="https://github.com/Viditv68/SimpleShooter"><FontAwesomeIcon icon={faGithub} size="2x" bounce /></a>
+          </div>
+          <div class="Simple-Shooter">Simple Shooter(C++ & UE5)</div>   
+          <div>
+            - Movement and animation of third person character.<br></br>  
+            - Shooting mechanics. Player and enemy health / death.<br></br>  
+            - Enemy AI using behavior trees.<br></br>  
+            - Win and lose conditions.<br></br> 
+            - Sound effects and particle systems.<br></br> 
+          </div>
+        </div>
+
+        <div>
+          <img className="toon-tanks" src= "src/Projects/Images/ToonTanks.png" width={500} height={300}  alt={"Vidit Rawat"}/>
+          <div class="github1">
+            <a href="https://github.com/Viditv68/ToonTanks"><FontAwesomeIcon icon={faGithub} size="2x" bounce /></a>
+          </div>
+          <div class="Toon-Tanks">Toon Tanks(C++ & UE5)</div>   
+          <div>
+            - Tank and turret movement implementation. <br></br>
+            - Implementation of camera movements. <br></br>
+            - Implementation of AI controled enemy tanks. <br></br>
+            - Shooting mechanis for player and enemy. <br></br>
+            - Game loop and win conditions.<br></br> 
+          </div>
+        </div>
+
+      
+
         </div>
         </section>
       </>
