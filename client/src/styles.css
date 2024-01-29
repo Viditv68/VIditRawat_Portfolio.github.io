@@ -16,6 +16,15 @@
   min-width: 100%;
   min-height: 100%;
 }
+.secondbackground {
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  background-image: radial-gradient(#0077b6, #28446b);
+  border-radius: 8px;
+  text-align: center;
+}
 
 /* Title section */
 #title {

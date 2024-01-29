@@ -3,7 +3,11 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; 
+}
+
+.profile-photo {
+  box-shadow  : 5px 5px 10px black;
 }
 .fullBody {
   background-image: radial-gradient(#0077b6, #2c394b);
@@ -25,10 +29,10 @@
 }
 /* First Backgound */
 .secondbackground {
-  margin-top: 30px;
+  margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
-  width: 50vw;
+  width: 100vw;
   background-image: radial-gradient(#0077b6, #28446b);
   border-radius: 8px;
   text-align: center;
@@ -186,6 +190,13 @@
   text-align: center;
 }
 
+.wall-and-eve-description {
+  color: #fff;
+  text-align: left;
+  margin-left: 15%;
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
 @media (max-width: 800px) {
   .secondbackground {
     width: 70vw;
