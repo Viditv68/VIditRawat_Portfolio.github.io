@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+/* File Name: about.jsx
+Student's Name: Vidit Rawat
+Student;s Id: 301391326
+Date: 28th January 2024 */
 import './contact.css';
 export default function About() {
     return (

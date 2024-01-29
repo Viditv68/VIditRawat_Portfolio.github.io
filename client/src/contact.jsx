@@ -1,3 +1,8 @@
+/* File Name: contact.jsx
+Student's Name: Vidit Rawat
+Student;s Id: 301391326
+Date: 28th January 2024 */
+
 import React from 'react';
 import './contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

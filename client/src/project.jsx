@@ -1,3 +1,8 @@
+/* File Name: project.jsx
+Student's Name: Vidit Rawat
+Student;s Id: 301391326
+Date: 28th January 2024 */
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHippo } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
